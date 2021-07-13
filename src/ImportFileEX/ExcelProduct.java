@@ -40,7 +40,7 @@ public class ExcelProduct {
 	public  void InsertByExcel() throws IOException, SQLException {
 	SanPhamDao sanPhamDao=new SanPhamDao();
 		// obtaining input bytes from a file
-		FileInputStream fis = new FileInputStream(new File("/file/importEX.xlsx"));
+		FileInputStream fis = new FileInputStream(new File("C:\\123\\importEX.xlsx"));
 //		FileInputStream fis = new FileInputStream(new File("E:\\LTW\\projectCNPM\\NMCNPM\\WebProject\\WebContent\\file\\importEX.xlsx"));
 		// creating workbook instance that refers to .xls file
 		XSSFWorkbook wb = new XSSFWorkbook(fis);
